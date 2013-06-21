@@ -1,0 +1,10 @@
+---
+name: zenddbconnector
+---
+Injector:
+  ZendDatabase:
+    class: 'ZendDatabase'
+    properties:
+      connector: %$ZendConnector
+      schemaManager: %$ZendSchemaManager
+      queryBuilder: %$ZendQueryBuilder
